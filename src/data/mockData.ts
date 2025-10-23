@@ -7,8 +7,8 @@ export const mockArtifacts: IArtifact[] = [
     title: 'Executive Leadership Workshop',
     description:
       'An intensive 3-day workshop for emerging leaders, focusing on strategic communication, team empowerment, and resilient leadership.',
-    imageUrl: 'https://via.placeholder.com/400x250/964B00/FFFFFF?text=Leadership+Workshop',
-    projectUrl: '#', 
+    imageUrl: '/artifact-1.webp', 
+    projectUrl: '#',
     tags: ['Leadership', 'Professional Development', 'Corporate Training'],
   },
   {
@@ -16,8 +16,8 @@ export const mockArtifacts: IArtifact[] = [
     title: 'Workforce Integration Program (Case Study)',
     description:
       'A case study on our partnership with a tech firm to integrate a new immigrant workforce, improving team cohesion and productivity by 25%.',
-    imageUrl: 'https://via.placeholder.com/400x250/7BAF9E/FFFFFF?text=Workforce+Case+Study',
-    projectUrl: '#', 
+    imageUrl: '/artifact-2.webp', 
+    projectUrl: '#',
     tags: ['Workforce Development', 'Immigration Consulting', 'Case Study'],
   },
   {
@@ -25,8 +25,8 @@ export const mockArtifacts: IArtifact[] = [
     title: 'Download: The Resilient Career E-Book',
     description:
       'A free e-book offering actionable advice for professionals seeking to build resilience, navigate career transitions, and find fulfillment.',
-    imageUrl: 'https://via.placeholder.com/400x250/F5EBDD/2C2C2C?text=Download+E-Book',
-    projectUrl: '#', 
+    imageUrl: '/artifact-3.webp', 
+    projectUrl: '#',
     tags: ['Personal Development', 'Career Coaching', 'Resource'],
   },
   {
@@ -34,7 +34,7 @@ export const mockArtifacts: IArtifact[] = [
     title: 'One-on-One Career Coaching',
     description:
       'Personalized coaching sessions to help individuals identify their strengths, overcome obstacles, and achieve their ultimate career goals.',
-    imageUrl: 'https://via.placeholder.com/400x250/964B00/FFFFFF?text=Career+Coaching',
+    imageUrl: '/artifact-4.webp', 
     projectUrl: '#',
     tags: ['Personal Development', 'Career Coaching'],
   },

@@ -1,42 +1,41 @@
 import { IArtifact, IReflection } from '@/types';
 
-
 export const mockArtifacts: IArtifact[] = [
   {
     id: 'artifact-1',
-    title: 'Executive Leadership Workshop',
+    title: 'Strategic Workforce Planning Workshop',
     description:
-      'An intensive 3-day workshop for emerging leaders, focusing on strategic communication, team empowerment, and resilient leadership.',
-    imageUrl: '/artifact-1.webp', 
-    projectUrl: '#',
-    tags: ['Leadership', 'Professional Development', 'Corporate Training'],
+      'Facilitated an executive leadership session for senior managers, focusing on building sustainable workforce strategies, performance alignment, and employee engagement across organizational levels.',
+    imageUrl: '/artifact-1.webp',
+    projectUrl: 'https://www.linkedin.com/in/matthew-ogieva/',
+    tags: ['Leadership Development', 'Strategic HR', 'People Management'],
   },
   {
     id: 'artifact-2',
-    title: 'Workforce Integration Program (Case Study)',
+    title: 'Public Sector Workforce Reform Program',
     description:
-      'A case study on our partnership with a tech firm to integrate a new immigrant workforce, improving team cohesion and productivity by 25%.',
-    imageUrl: '/artifact-2.webp', 
-    projectUrl: '#',
-    tags: ['Workforce Development', 'Immigration Consulting', 'Case Study'],
+      'Consulted with Crown Agents to design and implement public sector HR reform and capacity-building initiatives in Nigeria, improving organizational efficiency and people performance.',
+    imageUrl: '/artifact-2.webp',
+    projectUrl: 'https://www.linkedin.com/in/matthew-ogieva/',
+    tags: ['Public Sector Consulting', 'Change Management', 'Workforce Strategy'],
   },
   {
     id: 'artifact-3',
-    title: 'Download: The Resilient Career E-Book',
+    title: 'Executive Coaching & Leadership Advisory',
     description:
-      'A free e-book offering actionable advice for professionals seeking to build resilience, navigate career transitions, and find fulfillment.',
-    imageUrl: '/artifact-3.webp', 
-    projectUrl: '#',
-    tags: ['Personal Development', 'Career Coaching', 'Resource'],
+      'Provided one-on-one executive coaching and leadership advisory services to C-suite and mid-level managers, equipping them with tools for high-impact leadership and strategic decision-making.',
+    imageUrl: '/artifact-3.webp',
+    projectUrl: 'https://www.linkedin.com/in/matthew-ogieva/',
+    tags: ['Executive Coaching', 'Leadership', 'Talent Development'],
   },
   {
     id: 'artifact-4',
-    title: 'One-on-One Career Coaching',
+    title: 'People Management Transformation for SMEs',
     description:
-      'Personalized coaching sessions to help individuals identify their strengths, overcome obstacles, and achieve their ultimate career goals.',
-    imageUrl: '/artifact-4.webp', 
-    projectUrl: '#',
-    tags: ['Personal Development', 'Career Coaching'],
+      'Led consulting engagements with local and international SMEs under ICMS Professional Services, implementing people strategy frameworks and HR systems that drive measurable performance improvement.',
+    imageUrl: '/artifact-4.webp',
+    projectUrl: 'https://www.linkedin.com/in/matthew-ogieva/',
+    tags: ['HR Consulting', 'Organizational Development', 'SME Transformation'],
   },
 ];
 
@@ -44,16 +43,30 @@ export const mockArtifacts: IArtifact[] = [
 export const mockReflections: IReflection[] = [
   {
     id: 'reflection-1',
-    title: 'Beyond "Management": The Shift to True Leadership',
-    date: 'October 15, 2025',
+    title: 'The Power of People: Why Strategy Starts with Culture',
+    date: 'October 25, 2025',
     reflection:
-      'For years, companies asked for "managers" to enforce processes. Now, they need "leaders" who inspire growth. The key difference I\'ve seen? Empathy. In our last executive workshop, we saw a 40% increase in team-reported engagement after focusing solely on active listening and empathetic feedback. This is the new currency of the effective workplace.',
+      'Every business challenge ultimately comes down to people how they think, act, and lead. In our recent leadership engagements, I’ve observed that organizations investing in culture transformation see a compounding effect on performance. Strategy may set direction, but culture determines speed.',
   },
   {
     id: 'reflection-2',
-    title: 'The Untapped Potential in Your New-Hire Pool',
-    date: 'September 28, 2025',
+    title: 'Workforce Agility: Preparing for the Future of Work',
+    date: 'September 10, 2025',
     reflection:
-      'Many companies view their immigrant workforce through the lens of "challenge"—language barriers, cultural gaps. This is a mistake. The real lens is "opportunity." These individuals bring resilience, diverse perspectives, and a powerful drive. Our work proves that investing in targeted training and education isn\'t just a social good; it\'s a direct investment in your bottom line.',
+      'As industries evolve, the workforce must evolve faster. Developing agile talent isn’t about more training — it’s about creating learning ecosystems that empower individuals to adapt and innovate. At ICMS, we’ve seen clients outperform competitors simply by embedding flexibility into their HR strategy.',
+  },
+  {
+    id: 'reflection-3',
+    title: 'Leadership in Transition: Moving from Supervision to Influence',
+    date: 'August 30, 2025',
+    reflection:
+      'True leadership has shifted from positional authority to authentic influence. The leaders I coach who prioritize empathy, communication, and accountability consistently achieve higher team engagement and lower turnover. Influence, not instruction, drives transformation.',
+  },
+  {
+    id: 'reflection-4',
+    title: 'The New Equation of HR: Purpose + Performance',
+    date: 'July 18, 2025',
+    reflection:
+      'Modern HR is no longer an administrative function. It’s a strategic driver of purpose and performance. Aligning people goals with organizational strategy allows teams to see not just what they do, but why it matters. That clarity fuels sustainable growth.',
   },
 ];

@@ -27,7 +27,7 @@ const Navbar = () => {
           className="font-display text-2xl font-bold text-text hover:text-primary transition-colors"
           onClick={() => setIsOpen(false)} 
         >
-          MATTHEW
+          Matthew Ogieva
         </Link>
 
         {/* DESKTOP Navigation Links (Hidden on mobile) */}

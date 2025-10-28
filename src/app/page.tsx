@@ -32,7 +32,7 @@ export default function Home() {
           {/* Hero Text Content */}
           <div>
             <h1 className="font-display text-2xl md:text-3xl font-bold text-text mb-6">
-              Human Capital Management Consultant | Leadership & Organizational Development | Workforce Strategy
+               Management Consulting | Leadership & Organization Development | International Business
             </h1>
             <p className="font-sans text-lg text-gray-700 max-w-lg mb-8">
               Matthew Ogieva (ACIPM, SHRM-SCP) is a dynamic People Management Consultant who provides strategic workforce solutions, helping organizations optimize their human capital potential. He has over a decade of experience driving leadership transformation, people engagement, and business performance improvement across multiple sectors.

@@ -1,24 +1,24 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
     {
-      name: 'GitHub',
-      icon: FaGithub,
-      url: '#', 
+      name: 'Instagram',
+      icon: FaInstagram,
+      url: 'https://www.instagram.com/matthewogieva?igsh=Z3RqaXFpams3MmJm', 
     },
     {
       name: 'LinkedIn',
       icon: FaLinkedin,
-      url: '#', 
+      url: 'https://www.linkedin/in/matthew-ogieva', 
     },
     {
       name: 'Twitter',
       icon: FaTwitter,
-      url: '#', 
+      url: 'https://x.com/OgievaMatthew?t=mPNXmOhUYtkPi5SD9f8zlA&s=09', 
     },
   ];
 

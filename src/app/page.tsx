@@ -36,6 +36,7 @@ export default function Home() {
             </h1>
             <p className="font-sans text-lg text-gray-700 max-w-lg mb-8">
               Matthew Ogieva (ACIPM, SHRM-SCP) is a dynamic People Management Consultant who provides strategic workforce solutions, helping organizations optimize their human capital potential. He has over a decade of experience driving leadership transformation, people engagement, and business performance improvement across multiple sectors.
+              
             </p>
             <Link
               href="/artifacts"
@@ -46,9 +47,9 @@ export default function Home() {
           </div>
 
           {/* Hero Image */}
-          <div className="relative w-full h-80 md:h-96 rounded-lg overflow-hidden shadow-lg">
+          <div className="relative w-full h-130 md:h-135 rounded-sm overflow-hidden">
             <Image
-              src="/hero.webp" 
+              src="/hero.jpg" 
               alt="A professional photo of the consultant"
               fill
               className="object-cover"

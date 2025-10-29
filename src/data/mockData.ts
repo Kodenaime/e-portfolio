@@ -53,7 +53,7 @@ export const mockReflections: IReflection[] = [
     title: 'Workforce Agility: Preparing for the Future of Work',
     date: 'September 10, 2025',
     reflection:
-      'As industries evolve, the workforce must evolve faster. Developing agile talent isn’t about more training — it’s about creating learning ecosystems that empower individuals to adapt and innovate. At ICMS, we’ve seen clients outperform competitors simply by embedding flexibility into their HR strategy.',
+      'As industries evolve, the workforce must evolve faster. Developing agile talent isn’t about more training  it’s about creating learning ecosystems that empower individuals to adapt and innovate. At ICMS, we’ve seen clients outperform competitors simply by embedding flexibility into their HR strategy.',
   },
   {
     id: 'reflection-3',
@@ -68,5 +68,36 @@ export const mockReflections: IReflection[] = [
     date: 'July 18, 2025',
     reflection:
       'Modern HR is no longer an administrative function. It’s a strategic driver of purpose and performance. Aligning people goals with organizational strategy allows teams to see not just what they do, but why it matters. That clarity fuels sustainable growth.',
+  },
+];
+
+
+export const publicationsData = [
+  {
+    id: "pub-1",
+    title: "The relevance of energy efficient projects to the US economy",
+    journal: "American Journal of Humanities and Social Sciences Research (AJHSSR)",
+    date: "2024",
+    description:
+      "This articlet explores the critical role of energy-efficient projects in shaping the economic, environmental, and national security landscape of the United States. As global energy demands surge and environmental concerns intensify, energy efficiency has emerged as a cornerstone of the U.S",
+    fileUrl: "/pdfs/publication-1.pdf",
+  },
+  {
+    id: "pub-2",
+    title: "Energy Sustainability and Tax Savings: Comparative Insights from Nigeria and the United States",
+    journal: "American Journal of Humanities and Social Sciences Research (AJHSSR)",
+    date: "2025",
+    description:
+      "This article analyzes the interplay between energy sustainability initiatives and tax-policy instruments in Nigeria and the United States. It elucidates how tax incentivesranging from import-duty waivers and Pioneer Status incentives in Nigeria to Investment Tax Credits (ITC), Production Tax Credits (PTC), and their successor Clean Electricity Credits in the United Statesfacilitate the reduction of investment costs, enhance project viability, and catalyze the deployment of renewable energy.",
+    fileUrl: "/pdfs/publication-2.pdf",
+  },
+  {
+    id: "pub-3",
+    title: "Exploring green energy initiatives within the black community",
+    journal: "American Journal of Humanities and Social Sciences Research (AJHSSR)",
+    date: "2024",
+    description:
+      "The global transition to renewable energy presents a unique opportunity to address both environmental and social inequities, particularly within marginalized communities such as the Black community.",
+    fileUrl: "/pdfs/publication-3.pdf",
   },
 ];

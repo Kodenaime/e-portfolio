@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import BookCard from './BookCard';
+import PublicationCard from "./PublicationCard";
+import { publicationsData } from "@/data/mockData";
 
 const publications = [
   {
@@ -70,6 +72,13 @@ export default function PublicationsSection() {
             ))}
           </div>
         </div>
+
+        <div className="grid md:grid-cols-2 gap-8 mb-8">
+          {publicationsData.map((pub) => (
+            <PublicationCard key={pub.id} {...pub} />
+          ))}
+        </div>
+
 
         <div className="space-y-6">
           {publications.map((pub, index) => (

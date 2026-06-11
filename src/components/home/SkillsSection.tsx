@@ -3,13 +3,16 @@
 import { motion } from 'framer-motion';
 
 const skills = [
-  'Human Capital Strategy',
+  'Strategic Planning and Execution',
   'Organizational Development',
-  'Leadership & Change Management',
-  'Talent Management',
-  'Supply Chain HR Consulting',
-  'Performance Management Systems',
-  'Coaching & Workforce Planning',
+  'Process Improvement',
+  'Leadership Development',
+  'Operations Management',
+  'Change Management',
+  'Workforce Engagement',
+  'Business Transformation',
+  'Performance Optimization',
+  'Engineering Management Principles'
 ];
 
 export default function SkillsSection() {
@@ -23,11 +26,11 @@ export default function SkillsSection() {
           viewport={{ once: true }}
           className="text-3xl font-semibold text-gray-900 mb-8 text-center"
         >
-          Core Skills & Expertise
+          Core Competencies
         </motion.h2>
 
         <motion.div
-          className="grid gap-4 sm:grid-cols-2 md:grid-cols-3"
+          className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
           initial="hidden"
           whileInView="visible"
           variants={{
@@ -48,9 +51,9 @@ export default function SkillsSection() {
                 hidden: { opacity: 0, y: 15 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="rounded-2xl border border-gray-200 p-4 shadow-sm hover:shadow-md transition bg-gray-50"
+              className="rounded-2xl border border-gray-200 p-4 shadow-sm hover:shadow-md transition bg-gray-50 flex items-center justify-center min-h-[80px]"
             >
-              <p className="text-gray-800 font-medium text-center">{skill}</p>
+              <p className="text-gray-800 font-medium text-center text-sm">{skill}</p>
             </motion.div>
           ))}
         </motion.div>

@@ -129,6 +129,50 @@ export default function Home() {
         </div>
       </motion.section>
 
+      {/* TEDx Talk Widget */}
+      <motion.section
+        className="container"
+        initial={sectionAnimation.initial}
+        animate={sectionAnimation.animate}
+        transition={sectionAnimation.transition}
+      >
+        <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-12">
+            {/* Text description */}
+            <div className="p-8 md:p-12 lg:col-span-5 flex flex-col justify-center">
+              <span className="text-accent font-semibold tracking-wider uppercase text-sm mb-3">Featured Speaking</span>
+              <h2 className="font-display text-3xl font-bold text-text mb-4">
+                Watch Matthew's TEDx Talk: <br />
+                <span className="text-primary italic">“Influence Continued”</span>
+              </h2>
+              <p className="font-sans text-gray-700 text-base mb-6 leading-relaxed">
+                Delivered at TEDxFisherCollege, Matthew explores the nature of influence, defining it not as control, but as the ethical transmission of belief and direction.
+              </p>
+              <div className="space-y-3 font-sans text-sm text-gray-600">
+                <p className="font-semibold text-text">Three Core Pillars of True Influence:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li><strong>Clarity:</strong> Creating direction and sharpening thinking.</li>
+                  <li><strong>Credibility:</strong> Building trust through consistency and integrity.</li>
+                  <li><strong>Connection:</strong> Using empathy to bridge the gap between people.</li>
+                </ul>
+              </div>
+            </div>
+            
+            {/* Embedded video */}
+            <div className="lg:col-span-7 aspect-video relative bg-black min-h-[300px] lg:min-h-full">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/Y4-RR2idGJ8"
+                title="Matthew Ogieva's TEDx Talk - Influence Continued"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </motion.section>
+
       {/* publications section component  */}
       <PublicationsSection />
 
@@ -170,7 +214,7 @@ export default function Home() {
             Matthew partners with corporations, educational institutions, nonprofits, and government agencies to strengthen leadership capacity and improve performance.
           </p>
           <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-8 text-sm md:text-base font-medium text-primary bg-primary/5 p-4 rounded-lg">
-            <span>Consulting</span> <span className="hidden md:inline">•</span> <span>Speaking</span> <span className="hidden md:inline">•</span> <span>Executive Coaching</span> <span className="hidden md:inline">•</span> <span>Leadership Development</span> <span className="hidden md:inline">•</span> <span>Engineering Management Advisory</span>
+            <span>Consulting</span> <span className="hidden md:inline">•</span> <span>Speaking</span> <span className="hidden md:inline">•</span> <span>Executive Coaching</span> <span className="hidden md:inline">•</span> <span>Leadership Development</span> <span className="hidden md:inline">•</span> <span>Engineering Management Advisory</span> <span className="hidden md:inline">•</span> <span>Supply Chain Optimization & Maritime</span>
           </div>
           <h3 className="font-display text-xl md:text-2xl font-bold mb-8">Ready to transform your leadership and build a stronger organization?</h3>
           <div className="flex flex-col sm:flex-row justify-center gap-4">

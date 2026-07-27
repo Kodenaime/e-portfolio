@@ -12,7 +12,8 @@ const skills = [
   'Workforce Engagement',
   'Business Transformation',
   'Performance Optimization',
-  'Engineering Management Principles'
+  'Engineering Management Principles',
+  'Supply Chain Optimization & Maritime'
 ];
 
 export default function SkillsSection() {
@@ -30,7 +31,7 @@ export default function SkillsSection() {
         </motion.h2>
 
         <motion.div
-          className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
+          className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
           initial="hidden"
           whileInView="visible"
           variants={{
@@ -51,7 +52,7 @@ export default function SkillsSection() {
                 hidden: { opacity: 0, y: 15 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="rounded-2xl border border-gray-200 p-4 shadow-sm hover:shadow-md transition bg-gray-50 flex items-center justify-center min-h-[80px]"
+              className="rounded-2xl border border-gray-200 p-4 shadow-sm hover:shadow-md transition bg-gray-50 flex items-center justify-center min-h-20"
             >
               <p className="text-gray-800 font-medium text-center text-sm">{skill}</p>
             </motion.div>

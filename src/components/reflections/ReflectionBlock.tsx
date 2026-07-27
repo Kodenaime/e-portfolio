@@ -23,6 +23,18 @@ const ReflectionBlock = ({ reflection }: ReflectionBlockProps) => {
       <p className="font-sans text-lg leading-relaxed text-gray-700 mt-4">
         {reflection.reflection}
       </p>
+      {reflection.link && (
+        <div className="mt-4">
+          <a
+            href={reflection.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-blue-600 hover:text-blue-800 hover:underline font-medium"
+          >
+            Read Article →
+          </a>
+        </div>
+      )}
     </article>
   );
 };

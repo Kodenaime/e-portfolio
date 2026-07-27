@@ -13,4 +13,5 @@ export interface IReflection {
   title: string;
   date: string; 
   reflection: string;
+  link?: string;
 }

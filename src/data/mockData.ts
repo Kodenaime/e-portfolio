@@ -69,6 +69,30 @@ export const mockReflections: IReflection[] = [
     reflection:
       'Modern HR is no longer an administrative function. It’s a strategic driver of purpose and performance. Aligning people goals with organizational strategy allows teams to see not just what they do, but why it matters. That clarity fuels sustainable growth.',
   },
+  {
+    id: 'reflection-5',
+    title: 'Ownership Influence',
+    date: 'Dec 2021',
+    reflection:
+      'An article exploring the role of ownership and accountability in effective leadership and organizational performance.',
+    link: 'https://www.linkedin.com/in/matthew-ogieva/',
+  },
+  {
+    id: 'reflection-6',
+    title: 'Engaging the Next Gen',
+    date: 'Feb 2020',
+    reflection:
+      'A thought piece on managing generational diversity and empowering the modern workforce to thrive.',
+    link: 'https://www.linkedin.com/in/matthew-ogieva/',
+  },
+  {
+    id: 'reflection-7',
+    title: 'Creating the Workforce of the Future',
+    date: 'May 2019',
+    reflection:
+      'Keynote insights on how organizations can adapt HR strategies to prepare for future work dynamics.',
+    link: 'https://www.linkedin.com/in/matthew-ogieva/',
+  },
 ];
 
 
